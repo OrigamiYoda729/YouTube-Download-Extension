@@ -1,0 +1,24 @@
+{
+  "name": "YouTube Downloader",
+  "version": "0.3.2",
+  "manifest_version": 2,
+  "description": "Download any YouTube video with the click of a button.",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Download Video"
+  },
+  "icons": {
+	  "428": "https://image.ibb.co/mCaWg8/icon.png"
+	},
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "file:///",
+    "tabs"
+  ]
+}
