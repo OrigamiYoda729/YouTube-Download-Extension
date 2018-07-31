@@ -13,7 +13,7 @@
     "default_title": "Download Video"
   },
   "icons": {
-	  "428": "https://image.ibb.co/mCaWg8/icon.png"
+	  "428": "icon.png"
 	},
   "permissions": [
     "https://*/*",
